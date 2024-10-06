@@ -1,0 +1,56 @@
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.svg-graph {
+  border: 1px solid black;
+  user-select: none;
+}
+
+.circle {
+  fill: rgb(228, 201, 83);
+  stroke: rgb(49, 49, 49);
+  stroke-width: 2px;
+}
+
+.line {
+  fill: transparent;
+  stroke-width: 2px;
+  stroke: #535bf2;
+}
+
+.area {
+  fill: rgb(237, 237, 237);
+  padding: 0;
+  margin: 0;
+}
+
+.tooltip {
+  background-color: rgb(255, 233, 166);
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 3px;
+  pointer-events: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
